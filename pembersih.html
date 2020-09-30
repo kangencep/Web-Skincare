@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Comptible" content="ie=edge">
+<title>Web Responsive</title>
+<link rel="stylesheet" href="style.css" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $('.zoom').hover(function() {
+        $(this).addClass('transisi');
+    }, function() {
+        $(this).removeClass('transisi');
+    });
+});  
+</script>
+</head>
+<body>
+  <div class="badan-utama">
+     <header><center>
+	    <h2>Produk Kecantikan</h2>
+		<p>Pusatnya Produk Kecantikan Terbaik Di Indonesia Bahkan Dunia</p></center>
+	 </header>
+	 <nav class="navigasi">
+	   <ul>
+		   <li><a href="index.html">Home</a></li>
+		   <li><a href="#">Profil</a></li>
+           <li><a href="#">Peluang Bisnis</a></li> 
+           <li><a href="#">Pendaftaran Member</a></li>
+		   <li><a href="semuaproduk.html">Semua Produk</a></li>
+		   <li><a href="#">Cara Order</a></li>
+		   <li><a href="#">Group</a></li>
+	   </ul>
+	 </nav>
+	 <div class="banner">
+	     <img src="images/header.png" alt="Produk Terlaris">
+	 </div>
+	 <div class="menu-kiri">
+	    <div class="kotak">
+		     <h3> Harga Produk</h3>
+			 
+	         <center><a class="tombol tombol-beli" href="http://bit.ly/081272919977">Rp 250.000</a>
+		</div>
+	 </div>
+	 <div class="menu-tengah">
+	    <div class="kotak">
+		<h3>Pembersih Wajah</h3>
+		<span class="tanggal-posting">
+		    Diposting pada 12.00 WIB, 03 Juli 2020
+		</span>
+		<div class="container">
+		<center><img src="images/pembersih.jpg" alt="Pembersih Wajah" class="zoom"></center>
+		</div>
+		<p>
+		    Pembersih wajah dengan aksi ganda dengan formula lembut dan PH rendah yang membantu mencerahkan, menyegarkan, dan membersihkan kulit secara mendalam.
+	    </p>
+		<a class="tombol tombol-lengkap" href="http://bit.ly/081272919977">Beli Sekarang</a>
+	    </div>
+	  </div>
+	  <div class="menu-kanan">
+            <div class="kotak">
+                <h3>Hubungi Kami</h3>
+                <img src="images/shanti.jpg" alt="Konsultan Jafra">
+ 
+                <h4 align="center">Free Konsultasi</h4>
+                <div class="rata">
+                    <p>Senin-Minggu 08.00 - 22.00 WIB</p>
+					<p>Whatsapp : 0812 7291 9977</p>
+					<a href="https://web.facebook.com/beautyshanti">Facebook Me</a></br>
+					<a href="https://www.instagram.com/ary_susanty68/">Follow Instagram Me</a></br>
+                </div>
+            </div>
+			<div class="kotak">
+                <h3>Produk Terlaris</h3>
+ 
+                <nav class="menu-artikel">
+                    <ul>
+					    <li><a href="masker.html">Masker Wajah</a></li>
+                        <li><a href="pembersih.html">Pembersih Wajah </a></li>
+                        <li><a href="parfum.html">Parfum Elegan Memikat</a></li>
+                        <li><a href="blushon.html">Blush On Mewah Kece</a></li>
+                        <li><a href="serum.html">Serum Wajah Glowing</a></li>
+                        <li><a href="handbody.html">Handbody Lotion Olive</a></li>
+                    </ul>
+                </nav>
+            </div>
+		</div>
+	    <footer>
+            Copyright 2020 || by Encep Nurdin
+        </footer>
+   </div>
+</body>
+</html>
